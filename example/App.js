@@ -24,7 +24,7 @@ export default class App extends Component<Props> {
     selectedVoice: null,
     speechRate: 0.5,
     speechPitch: 1,
-    text: "This is an example text"
+    text: "This is an example text. Hello, World!"
   };
 
   constructor(props) {
