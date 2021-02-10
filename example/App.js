@@ -63,10 +63,10 @@ export default class App extends Component<Props> {
       this.setState({
         voices: availableVoices,
         selectedVoice,
-        ttsStatus: "initialized"
+        ttsStatus: "initialized with voices"
       });
     } else {
-      this.setState({ ttsStatus: "initialized" });
+      this.setState({ ttsStatus: "initialized without voices" });
     }
   };
 
